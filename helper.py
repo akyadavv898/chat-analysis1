@@ -30,7 +30,7 @@ def most_busy_users(df):
 
 def create_wordcloud(selected_user,df):
    
-    f = open('F:/machine learnig/file/chat2/stop_hinglish (1).txt','r')
+    f = open('stop_hinglish (1).txt','r')
     stop_words = f.read()
 
     if selected_user != "Overall":
@@ -51,7 +51,7 @@ def create_wordcloud(selected_user,df):
 
 def most_column_words(selected_user,df):
 
-    f = open('F:/machine learnig/file/chat2/stop_hinglish (1).txt','r')
+    f = open('stop_hinglish (1).txt','r')
     stop_words = f.read()
 
     if selected_user != "Overall":
